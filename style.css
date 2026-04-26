@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
+    font-family: Arial;
     background: #0f0f0f;
     color: #fff;
 }
@@ -14,15 +14,14 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     background: #1a1a1a;
     padding: 10px;
 }
 
 nav a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
 nav a:hover {
@@ -47,7 +46,6 @@ h2 {
 
 .card:hover {
     transform: scale(1.03);
-    background: #292929;
 }
 
 .grid {
@@ -56,8 +54,19 @@ h2 {
     gap: 10px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
 footer {
     text-align: center;
-    padding: 15px;
     background: #1a1a1a;
+    padding: 10px;
 }
